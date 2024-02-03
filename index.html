@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Gusteritan Ovidiu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -18,13 +20,22 @@
 
         <nav class="navbar">
             <ul class="navbar-list">
-                <li><a href="">Work</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
+                <li class="navbar-btn"><a href="#about">About</a></li>
+                <li class="navbar-btn"><a href="#skills-container">Skills</a></li>
+                <li class="navbar-btn"><a href="">Work</a></li>
             </ul>
         </nav>
 
     </header>
+
+    <aside class="fixed-links">
+        <a href="https://www.instagram.com/whomgusty/" class="aside-link"><img class="aside-link-img"
+                src="images/instagram-icon.png" alt=""></a>
+        <a href="https://twitter.com/ovidiugst" class="aside-link"><img class="aside-link-img"
+                src="images/twitter-icon.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/gusteritanovidiu/" class="aside-link"><img class="aside-link-img"
+                src="images/linkedin-icon.png" alt=""></a>
+    </aside>
 
     <aside class="home">
         <span class="home-slogan">Code with Passion, Create with Precision: <br> Unleashing the Power of
@@ -32,34 +43,139 @@
     </aside>
 
     <main class="main-container">
-        <section class="main-item about-container">
-            <p class="about-item description1">Hello, I'm Ovidiu, a seasoned software developer with a wealth of
-                experience
-                spanning three dynamic years
-                in the programming arena. My journey is a fusion of hands-on expertise in both front-end and back-end
-                technologies, presenting a versatile skill set that includes C++, C#, MySQL, HTML, CSS, and JavaScript.
-            </p>
-            <p class="about-item description2">I take pride in having represented at the national level in the
-                Information
-                Technology Olympiad,
-                excelling in C#. Additionally, my international recognition is reflected in an ECDL (European Computer
-                Driving License) certification, underlining my proficiency in Word, Excel, Access, and PowerPoint.</p>
-            <p class="about-item description3">I navigate the coding landscape with mastery in C++ and C#, coupled with
-                a creative
-                touch in crafting
-                responsive and visually captivating interfaces using HTML, CSS, and JavaScript.My expertise extends to
-                efficient and secure data handling through MySQL.</p>
-            <p class=" about-itemdescription4">From the elegance of front-end experiences to the robustness of back-end
-                systems, my
-                portfolio mirrors a
-                diverse range of projects. Each one is a testament to my dedication to creating seamless, user-centric
-                applications that push the boundaries of what's possible.</p>
-            <p class="about-item description5">In this ever-evolving tech landscape, I thrive on staying ahead of the
-                curve. Each
-                line of code isn't
-                just a solution but a commitment to continuous learning and growth.</p>
+        <section class="main-item about-container" id="about">
+            <h1 class=" about-item about-title">About Me</h1>
+            <section class="about-item about-description">
+                <p class="about-desc-item description1">Hello, I'm Ovidiu, a seasoned software developer with a wealth
+                    of
+                    experience
+                    spanning three dynamic years
+                    in the programming arena. My journey is a fusion of hands-on expertise in both front-end and
+                    back-end
+                    technologies, presenting a versatile skill set that includes C++, C#, MySQL, HTML, CSS, and
+                    JavaScript.
+                </p>
+                <p class="about-desc-item description2">I take pride in having represented at the national level in the
+                    Information
+                    Technology Olympiad,
+                    excelling in C#. Additionally, my international recognition is reflected in an ECDL (European
+                    Computer
+                    Driving License) certification, underlining my proficiency in Word, Excel, Access, and PowerPoint.
+                </p>
+                <p class="about-desc-item description3">I navigate the coding landscape with mastery in C++ and C#,
+                    coupled
+                    with
+                    a creative
+                    touch in crafting
+                    responsive and visually captivating interfaces using HTML, CSS, and JavaScript.My expertise extends
+                    to
+                    efficient and secure data handling through MySQL.</p>
+                <p class="about-desc-item description4">From the elegance of front-end experiences to the robustness of
+                    back-end
+                    systems, my
+                    portfolio mirrors a
+                    diverse range of projects. Each one is a testament to my dedication to creating seamless,
+                    user-centric
+                    applications that push the boundaries of what's possible.</p>
+                <p class="about-desc-item description5">In this ever-evolving tech landscape, I thrive on staying ahead
+                    of
+                    the
+                    curve. Each
+                    line of code isn't
+                    just a solution but a commitment to continuous learning and growth.</p>
+            </section>
         </section>
+
+        <section class="main-item skills-container" id="skills-container">
+            <h1 class="skills-title">Skills</h1>
+            <section class="cards-container">
+                <div class="skill" id="c-plus-plus">
+                    <div class="skill-details">
+                        <img src="images/cpp-icon.png" class="skill-icon">
+                        <p>Proficient in C++ programming language, with experience in developing applications and
+                            algorithms.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+                <div class="skill" id="c-sharp">
+                    <div class="skill-details">
+                        <img src="images/csharp-icon.png" class="skill-icon">
+                        <p>Skilled in C# programming, with expertise in building desktop and web applications using .NET
+                            framework.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+                <div class="skill" id="mysql">
+                    <div class="skill-details">
+                        <img src="images/mysql-icon.png" class="skill-icon">
+                        <p>Experienced in designing and managing relational databases using MySQL, ensuring efficient
+                            data
+                            storage and retrieval.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+                <div class="skill" id="html">
+                    <div class="skill-details">
+                        <img src="images/html-icon.png" class="skill-icon">
+                        <p>Proficient in creating structured and semantic web pages using HTML, laying the foundation
+                            for
+                            web development.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+                <div class="skill" id="css">
+                    <div class="skill-details">
+                        <img src="images/css-icon.png" class="skill-icon">
+                        <p>Skilled in styling and layout with CSS, enhancing the visual appeal and user experience of
+                            web
+                            applications.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+                <div class="skill" id="javascript">
+                    <div class="skill-details">
+                        <img src="images/javascript-icon.png" class="skill-icon">
+                        <p>Strong command of JavaScript for creating dynamic and interactive web applications, enhancing
+                            user engagement.</p>
+                        <p><i class="fa fa-code"></i></p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
     </main>
+
+    <footer>
+        <h2 class="contact-title">Contact</h2>
+        <section class="contact-info">
+            <div class="contact-item">
+                <img src="images/whatsapp-icon.png" class="footer-link-img">
+                <a class="footer-link" href="tel:+40746952745">0746 952 745</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/gmail-icon.png" class="footer-link-img">
+                <a class="footer-link" href="mailto:gusteritanovidiu@gmail.com">gusteritanovidiu@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/instagram-icon.png" class="footer-link-img">
+                <a class="footer-link" href="https://www.instagram.com/whomgusty/">whomgusty</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/twitter-icon.png" class="footer-link-img">
+                <a class="footer-link" href="https://twitter.com/ovidiugst">ovidiugst</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/linkedin-icon.png" class="footer-link-img">
+                <a class="footer-link" href="https://www.linkedin.com/in/gusteritanovidiu/">gusteritanovidiu</a>
+            </div>
+        </section>
+    </footer>
 
 </body>
 
